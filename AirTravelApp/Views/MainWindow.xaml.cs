@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AirTravelApp.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,9 @@ namespace AirTravelApp
 
 		private void OpenFlight(object sender, RoutedEventArgs e)
 		{
-			
-        }
-    }
+			MainFrame.Navigate(new FlightAdminPage());
+		}
+
+		
+	}
 }

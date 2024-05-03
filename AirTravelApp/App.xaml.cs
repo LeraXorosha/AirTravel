@@ -17,7 +17,7 @@ namespace AirTravelApp
 		protected override void OnStartup(StartupEventArgs e)
 		{
 			base.OnStartup(e);
-			var newWindow = new FlightAdminWindow();
+			var newWindow = new MainWindow();
 			newWindow.Show();
 		}
 	}

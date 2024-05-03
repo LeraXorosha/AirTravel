@@ -87,12 +87,20 @@
     <Compile Include="Models\User.cs">
       <DependentUpon>BaseModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Views\FlightAdminWindow.xaml.cs">
-      <DependentUpon>FlightAdminWindow.xaml</DependentUpon>
+    <Compile Include="Views\FlightAddPage.xaml.cs">
+      <DependentUpon>FlightAddPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\FlightAddWindow.xaml.cs">
-      <DependentUpon>FlightAddWindow.xaml</DependentUpon>
+    <Compile Include="Views\FlightAdminPage.xaml.cs">
+      <DependentUpon>FlightAdminPage.xaml</DependentUpon>
     </Compile>
+    <Page Include="Views\FlightAddPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FlightAdminPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -115,14 +123,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\FlightAdminWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\FlightAddWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
