@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5032ba0a28f246a9bef25ab83f9be2bf" Name="Diagram1">
+        <EntityTypeShape EntityType="AirTravelModel.ComfortClass" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTravelModel.Flight" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTravelModel.JetType" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTravelModel.Role" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTravelModel.Ticket" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirTravelModel.User" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="AirTravelModel.FK__Ticket__ComfortC__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTravelModel.FK__Flight__JetTypeI__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTravelModel.FK__Ticket__FlightID__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTravelModel.FK__User__RoleID__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="AirTravelModel.FK__Ticket__UserID__72C60C4A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
